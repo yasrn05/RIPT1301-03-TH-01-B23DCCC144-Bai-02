@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="http://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <input type="text" id="username" name="username" placeholder="Username">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="Password">
+                <i class='bx bxs-key'></i>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error" class="error"></p>
+    </div>
+    <script src="scriptLogin.js"></script>
+</body>
+
+</html>
